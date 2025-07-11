@@ -1,0 +1,32 @@
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* share style */
+.btn{
+    background-color:#4E47FF;
+    color:#ffffff;
+    border-radius: 5px;
+}
+.text{
+    color: #4E47FF;
+    font-size: 34px;
+}
+/* navigation style */
+nav{
+    padding: 10;
+    display: flex;
+    justify-content:space-around;
+}
+header{
+    background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png);
+    background-position: top center;
+}
+.banner{
+    text-align: center;
+    padding: 50px 0;
+}
