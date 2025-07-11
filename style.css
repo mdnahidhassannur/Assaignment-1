@@ -10,7 +10,7 @@
 .btn{
     background-color:#4d47ff;
     color:#ffffff;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 150px;
     height: 60px;
 }
@@ -20,6 +20,9 @@
 }
 .text2{
     color: #474747;
+}
+.align{
+    text-align: center;
 }
 /* navigation style */
 nav{
@@ -57,7 +60,10 @@ header{
     align-items: center;
 }
 /* productive style */
-
+.productive{
+    background-color: rgba(255, 71, 212, 0.1);
+   
+}
 .caption{
     text-align: center;
     font-size: 24px;
@@ -86,6 +92,8 @@ header{
 .review-column{
     display: flex;
     justify-content: space-between;
+    padding : 20px;
+    margin: 0%;
 }
 .images{
     display: flex;
@@ -95,6 +103,8 @@ header{
  }
 .review-text{
     text-align: left;
+    padding: 20px;
+    margin: 0px;
 }
 .review-title{
     font-size: 24px;
@@ -115,9 +125,41 @@ header{
     height: 50px;
     border-radius: 50%;
 }
-
-.Date{
+.review-user{
+    display: flex;
+    justify-content:first baseline;
+    padding: 10px;
+    margin-left: 0px;
+}
+.user-name{
+    color: #757575;
     padding: 0px;
     margin: 0px;
+}
+.Date{
+    padding:10px 0px;
+    margin: 0px;
     color: #b3b3b3;
+}
+/* extra style */
+
+.extra{
+    align-content: center;
+    padding: 50px 0;
+    text-align: center;
+    
+}
+.extra-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #181818;
+}
+.extra-data{
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+}
+.extra-img{
+    width: 840px;
+    height: 354px;
+    border-radius: 48px;
 }
