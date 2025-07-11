@@ -18,9 +18,10 @@
 }
 /* navigation style */
 nav{
-    padding: 10;
+    margin: 25px;
+    padding: 30px;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 header{
     background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png);
@@ -31,24 +32,48 @@ header{
     padding: 50px 0;
 }
 /*main style */
+/* action section */
 .action{
     display: flex;
-    padding: auto;
+    padding: 30px;
+    justify-content:space-between;
+    align-items: space-between;
 }
 .conteiner{
-    text-align: middle;
-    width: 50%;
+    
     padding: 20px;
-    justify-items: auto;
+    justify-items: space-between;
 }
 .action-img{
     border-radius: 48px;
-    height: 328px;
-    width: 403px;
 }
 .action-text{
     justify-content: center;
     align-items: center;
-    text-align: middle;
+}
+/* productive style */
+
+.caption{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+.productive-container{
+    display: flex;
+    justify-content: space-around;
     padding: 20px;
+}
+.productive-title{
+    color: #4E47FF;
+    font-style: bold;
+    font-size: 80px;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+.productive-data{
+    color: #474747;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
 }
