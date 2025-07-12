@@ -13,6 +13,11 @@
     border-radius: 10px;
     width: 150px;
     height: 60px;
+    font-style: bold;
+}
+.btn:hover{
+    color: black;
+    background-color:red ;
 }
 .text{
     color: #4E47FF;
@@ -34,7 +39,7 @@ nav{
 header{
     background-image: url(Assets/Hero-bg.png);
     background-position: top center;
-    width="100%"
+    width:100%;
 }
 .banner{
     text-align: center;
