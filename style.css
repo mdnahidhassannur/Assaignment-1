@@ -204,3 +204,34 @@ body{
     padding: 10px;
     font-size: 16px;
 }
+/* footer style */
+footer{
+    background-color: #F5F5F5;
+    padding: 50px 0;
+    text-align: center;
+}
+.footer-title{
+    font-size: 100px;
+    font-weight: bold;
+    color: #4d47ff;
+    margin-bottom: 20px;
+}
+.footer-text{
+    color: #757575;
+    font-size: 16px;
+    margin: 0;
+}
+footer ul{
+    display:flex;
+    gap: 24px;
+    justify-content: center;
+}
+footer ul li{
+    list-style: none;
+    font-size: 16px;
+    color: #757575;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #757575;
+}
