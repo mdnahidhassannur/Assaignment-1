@@ -19,6 +19,10 @@
     color: black;
     background-color:red ;
 }
+.li:hover{
+    color: #0e06f3;
+    background-color: #7758eb
+}
 .text{
     color: #4E47FF;
     font-size: 34px;
